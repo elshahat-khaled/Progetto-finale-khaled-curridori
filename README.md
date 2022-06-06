@@ -12,7 +12,7 @@ oppure
 - pip install flask-pymongo
 - pip install pymongo
 - flask run
-oppure
+#### oppure
 - pip install flask & pip install flask-cors & pip install flask-restful & pip install flask-pymongo & pip install pymongo
 - flask run
 
