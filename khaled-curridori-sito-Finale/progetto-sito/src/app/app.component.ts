@@ -20,7 +20,7 @@ export class AppComponent {
 
   find(station : HTMLInputElement){
     let m = station.value;
-    this.dataFrame = this.http.get<Stazioni[]>("https://5000-elshahatkha-progettofin-6v8xobn0m3d.ws-eu46.gitpod.io/" + "name/" + m);
+    this.dataFrame = this.http.get<Stazioni[]>("https://5000-elshahatkha-progettofin-3dltdo51eth.ws-eu46.gitpod.io/" + "name/" + m);
     this.dataFrame.subscribe(this.fati)
   }
 
