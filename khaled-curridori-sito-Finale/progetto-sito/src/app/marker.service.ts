@@ -8,7 +8,7 @@ import { map } from 'rxjs';
   providedIn: 'root'
 })
 export class MarkerService {
-  baseUrl : string = "https://5000-elshahatkha-progettofin-3dltdo51eth.ws-eu46.gitpod.io/markers"
+  baseUrl : string = "https://5000-elshahatkha-progettofin-33m0tx8z9yp.ws-eu46.gitpod.io/markers"
   constructor(private http: HttpClient) { 
     
   }
